@@ -23,6 +23,7 @@
 ::placeholder{
     color: var(--title-text);
     font-weight: 300;
+    letter-spacing: -1px;
 }
 
 /* Toggle Color */
@@ -55,6 +56,9 @@ body{
     width: 100vw;
     height: 100vh;
     position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* It all restarted here */
 }
 
 .main{
@@ -266,10 +270,16 @@ body{
 
 @media screen and (max-width:768px) {
     .main{
-        width: 330px;
+        /* width: 330px; */
+        width: 88vw;
+        /* height: auto; */
         /* border: 1px solid black; */
         /* margin-top: 10%; */
-        
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;   
+        margin: 0px auto;   
     }
 
     .main>div{
@@ -277,7 +287,7 @@ body{
     }
 
     .search{
-        width: 200px;
+        width: 190px;
         font-size: 0.8rem;
 
     }
