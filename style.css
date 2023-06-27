@@ -153,8 +153,8 @@ body{
 }
 
 .details{
-    min-width: 370px;
-    max-width: 400px;
+    /* min-width: 370px; */
+    width: 400px;
 }
 
 .profile-image{
@@ -315,7 +315,7 @@ body{
         /* gap: 100px; */
         /* padding: 20px; */
         /* border: 1px solid; */
-        width: 80%;
+        width: 100%;
         /* margin: 0px auto; */
     }
     .name{
@@ -332,18 +332,22 @@ body{
     }
 
     .about{
-        width: 80%;
+        width: 100%;
         font-size: 13px;
         opacity: 0.75;
 
     }
 
+    .details{
+        width: 100%;
+    }
     .repo-follow{
         width: 80%;
-        gap: 50px;
-        padding: 10px 13px;
+        /* gap: 50px; */
+        padding: 10px 23px;
         /* border: 1px solid black; */
-        justify-content: center;
+        justify-content: space-around;
+        margin: 0px auto;
     }
 
     .left-section{
@@ -355,5 +359,21 @@ body{
         /* gap: 50px; */
         margin-left: 0px;
     }
+}
+
+@media screen and (max-width:344px) {
+    .search{
+        width: 170px;
+    }
+
+    .repo-follow{
+        width: 100%;
+    }
+
+    .name_join{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
 }
 
