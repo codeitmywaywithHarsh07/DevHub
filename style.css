@@ -266,7 +266,7 @@ body{
 
 @media screen and (max-width:768px) {
     .main{
-        width: 360px;
+        width: 330px;
         /* border: 1px solid black; */
         /* margin-top: 10%; */
         
@@ -277,7 +277,7 @@ body{
     }
 
     .search{
-        width: 240px;
+        width: 200px;
         font-size: 0.8rem;
 
     }
