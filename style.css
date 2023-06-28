@@ -342,8 +342,8 @@ body{
         width: 100%;
     }
     .repo-follow{
-        width: 80%;
-        /* gap: 50px; */
+        width: 100%;
+        gap: 50px;
         padding: 10px 23px;
         /* border: 1px solid black; */
         justify-content: space-between;
